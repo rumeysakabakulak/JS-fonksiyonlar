@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            // Kullanıcıdan alınan sayının tek-çift olduğunu bulalım.
+        function tekcift(sayi) {
+            if ( sayi % 2 == 0){
+                console.log("çift");
+            }else{
+                console.log("tek");
+            }
+        };
+        var sayi = tekcift(prompt("sayı giriniz (tek-çift): "))
+        console.log(sayi);
+
+     //**************************************************************************
+
+            // Kullanıcıdan alınan sayının faktöriyelini hesaplayalım.
+        function faktöriyel(sayi){
+            var sonuc = 1;
+
+            for ( var i = 2; i <= sayi; i++){
+                sonuc *= i;
+            } return sonuc;
+        }   
+        console.log(faktöriyel(prompt("sayı giriniz (faktöriyel): ")))
+
+    
+        
+        
+
+    </script>
+</body>
+</html>
